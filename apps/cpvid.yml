@@ -6,6 +6,8 @@ description: A native video player for ClassPad II. Plays VIDEO.gmpak files with
 longDescription: |-
   CPVid is a native video player built specifically for the CASIO ClassPad II (fx-CP400). Experience video playback on your calculator with optimized performance using the QOI (CPQOI) format, significantly faster than Python-based alternatives.
 
+  [Download Example Video](https://github.com/TheRainbowPhoenix/CPVid/releases/latest/download/VIDEO.gmpak)
+
   ## Features
 
   - **Native implementation**: Built from the ground up for optimal performance on the fx-CP400
@@ -25,7 +27,9 @@ longDescription: |-
 
   ## Video Format
 
-  CPVid uses the .gmpak format, a custom video container optimized for the ClassPad II hardware. 
+  CPVid uses the .gmpak format, a custom video container optimized for the ClassPad II hardware.
+  You can learn more at https://therainbowphoenix.github.io/CPyVid/gmpak_explorer.html
+
 
   ### Converting Videos
 
@@ -86,7 +90,7 @@ tags:
   - Media
   - Video
   - Player
-position: 0 20%
+position: 0 50%
 website: 'https://therainbowphoenix.github.io/CPyVid/video_to_gmpak.html'
 contact: ''
 privacy: ''
