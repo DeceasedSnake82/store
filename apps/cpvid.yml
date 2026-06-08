@@ -1,0 +1,95 @@
+id: 32
+slug: cpvid
+name: CPVid
+author: Phoebe
+description: A native video player for ClassPad II. Plays VIDEO.gmpak files with QOI support
+longDescription: |-
+  CPVid is a native video player built specifically for the CASIO ClassPad II (fx-CP400). Experience video playback on your calculator with optimized performance using the QOI (CPQOI) format, significantly faster than Python-based alternatives.
+
+  ## Features
+
+  - **Native implementation**: Built from the ground up for optimal performance on the fx-CP400
+  - **QOI format support**: Utilizes CPQOI (ClassPad QOI) for faster decoding than PythonExtra CPyVid
+  - **Simple file structure**: Just place VIDEO.gmpak in root storage
+  - **Frame-by-frame control**: Navigate individual frames when paused
+  - **Automatic looping**: Videos loop by default for continuous playback
+  - **Online converter**: Easy-to-use web-based video conversion tool
+
+  ## Installation
+
+  1. Download CPVid.hh3 from the official GitHub releases
+  2. Place the file on your ClassPad II storage
+  3. Convert your video to .gmpak format using the online converter
+  4. Place the VIDEO.gmpak file in the root of your calculator storage
+  5. Launch CPVid from the Hollyhock-3 application menu
+
+  ## Video Format
+
+  CPVid uses the .gmpak format, a custom video container optimized for the ClassPad II hardware. 
+
+  ### Converting Videos
+
+  Use the online converter to create your own .gmpak files:
+  
+  1. Visit the converter at https://therainbowphoenix.github.io/CPyVid/video_to_gmpak.html
+  2. Upload your video file
+  3. Configure conversion settings
+  4. Download the resulting VIDEO.gmpak file
+  5. Transfer to your calculator's root storage
+
+  ## Controls
+
+  ### Playback Controls
+
+  | Key | Action |
+  | --- | --- |
+  | [EXE] (long press) | Play/Pause |
+  | [DEL] (long press) | Exit player |
+  | [4] (when paused) | Previous frame |
+  | [6] (when paused) | Next frame |
+
+  ### Default Behavior
+
+  - Videos automatically loop when they reach the end
+  - Frame navigation only available in pause mode
+  - Long press required for primary actions to prevent accidental input
+
+  ## Compatibility Note
+
+  **Important**: CPVid is **not backward compatible** with V2 CPVid. This is a completely new program sharing similar concepts but using a different file format and implementation.
+
+  ## Technical Details
+
+  - **Format**: .gmpak (custom video container)
+  - **Codec**: QOI (CPQOI variant)
+  - **Performance**: Optimized native code, faster than Python-based players
+  - **Storage**: Video file must be placed in root storage directory
+
+  ## Example Videos
+
+  The release package includes example videos demonstrating the player's capabilities, including BAD_APPLE.gmpak and BEAST.gmpak.
+
+  ## Notes
+
+  CPVid is primarily a demonstration of video playback capabilities on the ClassPad II platform. Performance may vary depending on video resolution, frame rate, and calculator system configuration.
+image: /store/images/cpvid/CPVID1.png
+screenshots:
+  - /store/images/cpvid/BAD_APPLE.png
+  - /store/images/cpvid/BEAST.png
+  - /store/images/cpvid/CPVID1.png
+  - /store/images/cpvid/CPVID2.png
+  - /store/images/cpvid/CPVID3.png
+downloadUrl: https://github.com/TheRainbowPhoenix/CPVid/releases/latest/download/CPVid.hh3
+detailsUrl: https://github.com/TheRainbowPhoenix/CPVid
+format: .hh3
+tags:
+  - Media
+  - Video
+  - Player
+position: 0 20%
+website: 'https://therainbowphoenix.github.io/CPyVid/video_to_gmpak.html'
+contact: ''
+privacy: ''
+rating: 0
+ratingCount: '0'
+downloads: 0+
