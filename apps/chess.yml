@@ -11,13 +11,15 @@ detailsUrl:  https://github.com/DeceasedSnake82/CP400-Chess                     
 format:  .hh3   # *  one of: .hh3 | .hh2 | .py
 
 # Cover image path (relative to /store/ base)
-image:    /store/images/cover/MyAwesomeApp.png   # *  see image guidelines below
+image:    /store/images/cover/chess.png # *  see image guidelines below
 position: center   # optional — CSS background-position, e.g. "top center"
 
 # Screenshots (optional — portrait images preferred)
 screenshots:
-  - /store/images/my-awesome-app/screen1.png
-  - /store/images/my-awesome-app/screen2.png
+  - /store/images/chess/chess1.png
+  - /store/images/chess/chess2.png
+  - /store/images/chess/chess3.png
+  - /store/images/chess/chess4.png
 
 # Tags — pick one or more that apply
 tags:          # *  at least one tag required
