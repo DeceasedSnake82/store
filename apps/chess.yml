@@ -34,9 +34,7 @@ ratingCount: ""   # displayed as-is, e.g. "18" or "1.2k"
 downloads:   "" # displayed as-is
 
 # Developer support links (all optional)
-website: https://yoursite.com
 contact: robbie.rose@hotmail.com
-privacy: https://yoursite.com/privacy
 
 # Long description — Markdown supported, will render on the detail page
 longDescription: |
