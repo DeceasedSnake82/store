@@ -39,7 +39,11 @@ function parseYaml(src) {
 
         const key = line.slice(0, colonIdx).trim();
         const afterColon = line.slice(colonIdx + 1);
-        const valueInline = afterColon.trim();
+        let valueInline = afterColon.trim();
+
+        // Strip inline comments (# preceded by whitespace)
+        const cmtIdx = valueInline.search(/ \#/);
+        if (cmtIdx !== -1) valueInline = valueInline.slice(0, cmtIdx).trimEnd();
 
         if (valueInline === "") {
             // Could be a block sequence — collect list items on following lines

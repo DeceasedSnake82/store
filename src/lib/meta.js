@@ -24,7 +24,11 @@ function parseYaml(src) {
         if (colonIdx === -1) { i++; continue; }
 
         const key = line.slice(0, colonIdx).trim();
-        const valueInline = line.slice(colonIdx + 1).trim();
+        let valueInline = line.slice(colonIdx + 1).trim();
+
+        // Strip inline comments (# preceded by whitespace)
+        const cmtIdx = valueInline.search(/ \#/);
+        if (cmtIdx !== -1) valueInline = valueInline.slice(0, cmtIdx).trimEnd();
 
         //  Literal / folded block scalar: `key: |` or `key: |-` or `key: >` 
         if (valueInline === '|' || valueInline === '|-' || valueInline === '>' || valueInline === '>-') {

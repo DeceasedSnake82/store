@@ -1,37 +1,28 @@
-id:          42               # next available integer — check existing files
-slug:        chess   # *  URL-safe, lowercase, hyphens only
-name:        Chess   # *  Display name shown in the store
-author:      DeceasedSnake82    # *  Your username or real name
-description: A chess ai you can play against.  # *  ≤ 160 chars
+id:          42
+slug:        chess
+name:        Chess
+author:      DeceasedSnake82
+description: A chess ai you can play against.
 
-# Download — at least one of these is required
 downloadUrl: https://github.com/DeceasedSnake82/CP400-Chess/releases/download/v1.0.0/Chess.hh3  # *
 detailsUrl:  https://github.com/DeceasedSnake82/CP400-Chess                                 # optional
 
-format:  .hh3   # *  one of: .hh3 | .hh2 | .py
+format:  .hh3 
 
-# Cover image path (relative to /store/ base)
-image:    /store/images/cover/chess.png # *  see image guidelines below
-position: center   # optional — CSS background-position, e.g. "top center"
+image:    /store/images/cover/chess.png
+position: center
 
-# Screenshots (optional — portrait images preferred)
 screenshots:
   - /store/images/chess/chess1.png
   - /store/images/chess/chess2.png
   - /store/images/chess/chess3.png
   - /store/images/chess/chess4.png
 
-# Tags — pick one or more that apply
-tags:          # *  at least one tag required
-  - Game       # or: Action | Puzzle | Classic | Strategy | RPG | Arcade
+tags: 
+  - Game
   - Puzzle
   - Classic
-  - Strategy   # or: Programming | Education | Math | AI | Graphics | Emulator
-
-# Statistics (optional — leave out if not known)
-rating:          # float 0–5
-ratingCount: ""   # displayed as-is, e.g. "18" or "1.2k"
-downloads:   "" # displayed as-is
+  - Strategy
 
 # Developer support links (all optional)
 contact: robbie.rose@hotmail.com
