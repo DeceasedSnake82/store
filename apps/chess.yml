@@ -4,7 +4,7 @@ name:        Chess
 author:      DeceasedSnake82
 description: A chess ai you can play against.
 
-downloadUrl: https://github.com/DeceasedSnake82/CP400-Chess/releases/download/v1.0.0/Chess.hh3  # *
+downloadUrl: https://github.com/DeceasedSnake82/CP400-Chess/releases/download/latest/Chess.hh3  # *
 detailsUrl:  https://github.com/DeceasedSnake82/CP400-Chess                                 # optional
 
 format:  .hh3 
